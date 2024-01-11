@@ -1,10 +1,5 @@
 # node-typescript-boilerplate
 
-[![Sponsor][sponsor-badge]][sponsor]
-[![TypeScript version][ts-badge]][typescript-5-3]
-[![Node.js version][nodejs-badge]][nodejs]
-[![Build Status - GitHub Actions][gha-badge]][gha-ci]
-
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects. 
 This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
 
