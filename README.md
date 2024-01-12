@@ -1,20 +1,20 @@
 # node-typescript-boilerplate
 
-👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects. 
-This project is intended to be used with the latest Active LTS release of [Node.js][nodejs].
+Developer Ready: A comprehensive template. Works out of the box for most Node.js projects. 
+This project is intended to be used with the latest Active LTS release of Node.js.
 
-🏃🏽 Instant Value - All basic tools included and configured:
+Instant Value - All basic tools included and configured:
 
-- [TypeScript][typescript] [5.3][typescript-5-3]
-- [ESM][esm]
-- [ESLint][eslint] with some initial rules recommendation
-- [Jest][jest] for fast unit testing and code coverage
+- Typescript 
+- ESM
+- ESlint with some initial rules recommendation
+- Jest for fast unit testing and code coverage
 - Type definitions for Node.js and Jest
-- [Prettier][prettier] to enforce consistent code style
-- NPM [scripts](#available-scripts) for common operations
-- [EditorConfig][editorconfig] for consistent coding style
-- Reproducible environments thanks to [Volta][volta]
-- Example configuration for [GitHub Actions][gh-actions]
+- Prettier to enforce consistent code style
+- NPM scripts for common operations
+- EditorConfig for consistent coding style
+- Reproducible environments thanks to Volta
+- Example configuration for GitHub Actions
 - Simple example of TypeScript code and unit test
 - Run tasks with Grunt (example for backup)
 - Build faster with ESBuild
