@@ -8,7 +8,10 @@
   "repository": "https://github.com/RajaRakoto/node-typescript-boilerplate",
   "keywords": [
     "typescript",
-    "node"
+    "nodejs"
+    "minimalist",
+    "boilerplate",
+    "template"
   ],
   "engines": {
     "node": ">= 20",
