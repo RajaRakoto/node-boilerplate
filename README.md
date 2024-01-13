@@ -39,7 +39,6 @@ pnpm install
 ### Scripts
 
 - `clean` - remove coverage data, Jest cache and transpiled files
-- `dev:watch` - interactive watch mode to automatically run source files with nodemon
 - `build` - transpile TypeScript to ES6
 - `build:watch` - interactive watch mode to automatically transpile source files
 - `build:bundle` - bundle source files with ESBuild
