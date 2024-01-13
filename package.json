@@ -8,7 +8,7 @@
   "repository": "https://github.com/RajaRakoto/node-typescript-boilerplate",
   "keywords": [
     "typescript",
-    "nodejs"
+    "nodejs",
     "minimalist",
     "boilerplate",
     "template"
@@ -33,7 +33,8 @@
     "prettier": "prettier --config .prettierrc --write .",
     "backup": "grunt backup",
     "pkg-check": "npm-check",
-    "pkg-upgrade": "npm-check -u"
+    "pkg-upgrade": "npm-check -u",
+    "versioning": "ungit"
   },
   "dependencies": {
     "tslib": "~2.6"

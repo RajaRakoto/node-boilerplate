@@ -18,6 +18,7 @@ Instant Value - All basic tools included and configured:
 - Simple example of TypeScript code and unit test
 - Run tasks with Grunt (example for backup)
 - Build faster with ESBuild
+- Ungit for version control (git) with a GUI
 
 ---
 
@@ -49,3 +50,6 @@ pnpm install
 - `backup` - backup files with Grunt
 - `npm-check` - check for outdated, incorrect, and unused dependencies
 - `npm-upgrade` - upgrade outdated dependencies
+- `versioning` - start ungit server
+
+> NOTE: install ungit with `npm install -g ungit`
