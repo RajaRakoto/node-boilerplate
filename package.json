@@ -11,7 +11,8 @@
     "nodejs",
     "minimalist",
     "boilerplate",
-    "template"
+    "template",
+    "starter"
   ],
   "engines": {
     "node": ">= 20",
