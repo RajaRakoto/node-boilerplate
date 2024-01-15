@@ -49,19 +49,19 @@ install ungit with:
 npm install -g ungit
 ```
 
-📜 `clean` - remove coverage data, Jest - cache and transpiled files 
-📜 `dev:tsc:watch"` - interactive watch mode to automatically transpile source files with tsc-watch in development 
-📜 `dev:nodemon:watch` - interactive watch mode to automatically restart Node.js server in development with nodemon 
-📜 `build` - transpile TypeScript to ES6 
-📜 `build:watch` - interactive watch mode to automatically transpile source files 
-📜 `build:bundle` - bundle source files with ESBuild 
-📜 `test` - run tests 
-📜 `test:watch` - interactive watch mode to automatically re-run tests 
-📜 `eslint` - lint source files and tests with ESLint 
-📜 `prettier` - reformat files 
-📜 `backup` - backup files with Grunt 
-📜 `npm-check` - check for outdated, incorrect, and unused dependencies 
-📜 `npm-upgrade` - upgrade outdated dependencies 
-📜 `versioning` - start ungit server 
+- 📜 `clean` - remove coverage data, Jest - cache and transpiled files 
+- 📜 `dev:tsc:watch"` - interactive watch mode to automatically transpile source files with tsc-watch in development 
+- 📜 `dev:nodemon:watch` - interactive watch mode to automatically restart Node.js server in development with nodemon 
+- 📜 `build` - transpile TypeScript to ES6 
+- 📜 `build:watch` - interactive watch mode to automatically transpile source files 
+- 📜 `build:bundle` - bundle source files with ESBuild 
+- 📜 `test` - run tests 
+- 📜 `test:watch` - interactive watch mode to automatically re-run tests 
+- 📜 `eslint` - lint source files and tests with ESLint 
+- 📜 `prettier` - reformat files 
+- 📜 `backup` - backup files with Grunt 
+- 📜 `npm-check` - check for outdated, incorrect, and unused dependencies 
+- 📜 `npm-upgrade` - upgrade outdated dependencies 
+- 📜 `versioning` - start ungit server 
 
 > NOTE: `dev.tsc.watch` and `dev:nodemon:watch` script are designed to run at the same time when developing your application 
