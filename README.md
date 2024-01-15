@@ -34,10 +34,11 @@ To use this template, use the following commands:
 ```bash
 git clone https://github.com/RajaRakoto/node-typescript-boilerplate
 cd node-typescript-boilerplate
+npm install -g pnpm # if you don't have pnpm installed
 pnpm install
 ```
 
-> NOTE: you can use `npm` or `yarn` instead of `pnpm`
+> NOTE: you can use `npm` or `yarn` instead of `pnpm`, I just use pnpm for performance reasons. You can also use [bun](https://bun.sh/) as a package manager, it's even more efficient than pnpm
 
 ---
 
