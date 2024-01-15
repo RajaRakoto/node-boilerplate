@@ -23,7 +23,8 @@
   "scripts": {
     "start": "node build/src/main.js",
     "clean": "rimraf build coverage",
-    "dev:watch": "nodemon build/src/main.js",
+    "dev:tsc:watch": "./node_modules/.bin/tsc-watch --onSuccess \"node tests/esbuild.test.js\"",
+    "dev:nodemon:watch": "nodemon tests/bundle.min.test.cjs --no-stdin",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "build:bundle": "node esbuild.js",
@@ -37,6 +38,7 @@
     "versioning": "ungit"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "tslib": "~2.6"
   },
   "devDependencies": {
@@ -58,6 +60,7 @@
     "rimraf": "~5.0",
     "ts-api-utils": "~1.0",
     "ts-jest": "~29.1",
+    "tsc-watch": "^6.0.4",
     "typescript": "~5.3"
   }
 }
