@@ -1,4 +1,4 @@
-# node-typescript-boilerplate 🚀
+# node-boilerplate 🚀
 
 **Developer Ready: A comprehensive template. Works out of the box for most Node.js projects. This project is intended to be used with the latest Active LTS release of Node.js.**
 
