@@ -43,7 +43,7 @@
     "build:bundle": "node esbuild.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "eslint": "eslint . --ext .ts --ext .mts",
+    "eslint": "eslint . --ext js,ts,mjs,mts --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier --config .prettierrc --write .",
     "backup": "grunt backup",
     "pkg-check": "depcheck",
