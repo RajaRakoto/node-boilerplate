@@ -34,7 +34,7 @@
     "node": "21.5.0"
   },
   "scripts": {
-    "start": "node dist/src/index.js",
+    "start": "node dist/bundle.min.cjs",
     "clean": "rimraf build dist coverage",
     "dev:tsc:watch": "./node_modules/.bin/tsc-watch --onSuccess \"node tests/esbuild.test.js\"",
     "dev:nodemon:watch": "nodemon tests/bundle.min.test.cjs --no-stdin",
