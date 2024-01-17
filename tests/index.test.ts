@@ -1,4 +1,4 @@
-import { Delays, greeter } from '../src/main.js';
+import { Delays, greeter } from '../src/index.js';
 
 describe('greeter function', () => {
   const name = 'John';
