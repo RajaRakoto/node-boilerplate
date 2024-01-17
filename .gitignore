@@ -2,11 +2,16 @@
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
 
 # production
 build
 dist
+dist-ssr
+*.local
 
 # dependencies
 node_modules
@@ -37,17 +42,22 @@ lib-cov
 # node-waf configuration
 .lock-wscript
 
-# vscode
+# editor
 .vscode
 !.vscode/tasks.js
+!.vscode/extensions.json
 .vscode-test
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # typescript
 typings
 *.tsbuildinfo
-
-# jetBrains IDEs
-.idea
 
 # cache & history
 .cache
@@ -62,9 +72,6 @@ typings
 # dotenv environment variables file
 .env
 .env.test
-
-# misc
-.DS_Store
 
 # output
 *.tgz
