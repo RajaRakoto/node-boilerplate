@@ -67,7 +67,7 @@ bun run pkg-upgrade # to upgrade outdated dependencies in interactive mode
 
 - 📜 `start` - run your application with node
 - 📜 `clean` - remove coverage data, prod build, ...
-- 📜 `dev:tsc:watch"` - interactive watch mode to automatically transpile source files with tsc-watch in development 
+- 📜 `dev:tsc:watch` - interactive watch mode to automatically transpile source files with tsc-watch in development 
 - 📜 `dev:nodemon:watch` - interactive watch mode to automatically restart Node.js server in development with nodemon 
 - 📜 `build` - transpile TypeScript to ES6 
 - 📜 `build:watch` - interactive watch mode to automatically transpile source files 
