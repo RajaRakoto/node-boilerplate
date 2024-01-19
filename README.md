@@ -90,6 +90,5 @@ bun run pkg-upgrade # to upgrade outdated dependencies in interactive mode
 You can also check out my other starter projects:
 
 - 🚀 [bun-boilerplate](https://github.com/RajaRakoto/bun-boilerplate)
-- 🚀 [deno-boilerplate](https://github.com/RajaRakoto/deno-boilerplate)
 - 🚀 [react-boilerplate](https://github.com/RajaRakoto/react-boilerplate)
 - 🚀 [next-boilerplate](https://github.com/RajaRakoto/next-boilerplate)
