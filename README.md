@@ -79,3 +79,4 @@ You can also check out my other starter projects:
 - 🚀 [bun-boilerplate](https://github.com/RajaRakoto/bun-boilerplate)
 - 🚀 [react-boilerplate](https://github.com/RajaRakoto/react-boilerplate)
 - 🚀 [next-boilerplate](https://github.com/RajaRakoto/next-boilerplate)
+- 🚀 [quik-boilerplate](https://github.com/RajaRakoto/quik-boilerplate)
