@@ -1,6 +1,6 @@
 {
   "name": "node-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript 🚀",
   "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
   "license": "MIT",
@@ -50,8 +50,8 @@
     "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
     "versioning": "ungit",
     "version-major": "npm version major",
-		"version-minor": "npm version minor",
-		"version-patch": "npm version patch"
+    "version-minor": "npm version minor",
+    "version-patch": "npm version patch"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
