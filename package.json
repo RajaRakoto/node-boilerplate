@@ -1,6 +1,6 @@
 {
   "name": "node-boilerplate",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript 🚀",
   "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
   "license": "MIT",
