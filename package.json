@@ -48,7 +48,10 @@
     "backup": "grunt backup",
     "pkg-check": "depcheck",
     "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
-    "versioning": "ungit"
+    "versioning": "ungit",
+    "version-major": "npm version major",
+		"version-minor": "npm version minor",
+		"version-patch": "npm version patch"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
