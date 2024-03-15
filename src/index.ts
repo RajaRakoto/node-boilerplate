@@ -34,4 +34,4 @@ export async function greeter(name: any) {// eslint-disable-line @typescript-esl
   return await delayedHello(name, Delays.Long);
 }
 
-console.log('test');
+console.log('Hello via Node !');
