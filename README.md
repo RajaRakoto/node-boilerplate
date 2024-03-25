@@ -9,7 +9,7 @@
 Instant Value - All basic tools included and configured:
 
 - 🚀 Typescript >= 5.3
-- 🌐 Node.js >= 20
+- 🌐 Node.js >= 20.10.0
 - 🧅 Use Bun as package manager
 - 🌈 ESM
 - 🧹 ESlint with some initial rules recommendation
@@ -54,7 +54,7 @@ bun run pkg-upgrade # to upgrade outdated dependencies in interactive mode
 
 **Start**
 
-- 📜 `start` - run your application with node.
+- 📜 `start` - Run your application with Node.js
 
 **Clean**
 
@@ -62,40 +62,44 @@ bun run pkg-upgrade # to upgrade outdated dependencies in interactive mode
 
 **Development**
 
-- 📜 `dev:tsc:watch` - interactive watch mode to automatically transpile source files with tsc-watch in development.
-- 📜 `dev:nodemon:watch` - interactive watch mode to automatically restart Node.js server in development with nodemon.
+- 📜 `dev:tsc:watch` - Interactive watch mode to automatically transpile source files with tsc-watch in development.
+- 📜 `dev:nodemon:watch` - Interactive watch mode to automatically restart Node.js server in development with nodemon.
 
 **Build**
 
-- 📜 `build` - transpile TypeScript to ES6.
-- 📜 `build:watch` - interactive watch mode to automatically transpile source files .
-- 📜 `build:bundle` - bundle source files with ESbuild.
+- 📜 `build` - Transpile TypeScript to ES6.
+- 📜 `build:watch` - Interactive watch mode to automatically transpile source files .
+- 📜 `build:bundle` - Bundle source files with ESbuild.
 
 **Testing**
 
-- 📜 `test` - run tests with Jest.
-- 📜 `test:watch` - interactive watch mode to automatically re-run tests with Jest.
+- 📜 `test` - Run tests with Jest.
+- 📜 `test:watch` - Interactive watch mode to automatically re-run tests with Jest.
 
 **Linting and Formatting**
 
-- 📜 `eslint` - lint source files with ESlint.
-- 📜 `prettier` - reformat source files with Prettier.
+- 📜 `eslint` - Lint source files with ESLint.
+- 📜 `prettier` - Reformat source files with Prettier.
 
 **Backup and Dependency Management**
 
-- 📜 `backup` - backup files with Grunt.
-- 📜 `pkg-check` - check useless dependencies with depcheck.
-- 📜 `pkg-upgrade` - upgrade outdated dependencies (interactive mode) with npm-check-updates.
+- 📜 `backup` - Backup files with Grunt.
+- 📜 `pkg-check` - Check useless dependencies with depcheck.
+- 📜 `pkg-upgrade` - Upgrade outdated dependencies (interactive mode) with npm-check-updates.
 
 **Versioning**
 
-- 📜 `versioning` - start ungit server.
+- 📜 `versioning` - Start ungit server.
 
-**npm Commands**
+**NPM Commands**
 
 - 📜 `npm-version:major` - Increments the major version number of your project using npm.
 - 📜 `npm-version:minor` - Increments the minor version number of your project using npm.
 - 📜 `npm-version:patch` - Increments the version patch number of your project using npm.
+
+**NVM**
+
+- 📜 `nvm` - Manage multiple node.js versions. Easily switch between node versions per project to ensure compatibility.
 
 > NOTE: `dev.tsc.watch` and `dev:nodemon:watch` script are designed to run at the same time when developing your application.
 
@@ -108,6 +112,6 @@ You can also check out my other starter projects:
 - 🚀 [bun-boilerplate](https://github.com/RajaRakoto/bun-boilerplate)
 - 🚀 [react-boilerplate](https://github.com/RajaRakoto/react-boilerplate)
 - 🚀 [next-boilerplate](https://github.com/RajaRakoto/next-boilerplate)
-- 🚀 [quik-boilerplate](https://github.com/RajaRakoto/quik-boilerplate)
+- 🚀 [qwik-boilerplate](https://github.com/RajaRakoto/qwik-boilerplate)
 - 🚀 [vscode-boilerplate](https://github.com/RajaRakoto/vscode-boilerplate)
 - 🚀 [cli-boilerplate](https://github.com/RajaRakoto/cli-boilerplate)
