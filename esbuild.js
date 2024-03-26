@@ -7,7 +7,7 @@ esbuild
 		minify: true,
 		sourcemap: true,
 		target: ["ESNext"],
-		outfile: "./dist/bundle.cjs",
+		outfile: "./dist/bundle.js",
 		platform: "node",
 	})
 	.catch(() => process.exit(1));
