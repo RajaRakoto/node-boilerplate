@@ -54,7 +54,8 @@ bun run pkg-upgrade # to upgrade outdated dependencies in interactive mode
 
 **Start**
 
-- 📜 `start` - Run your application with Node.js
+- 📜 `start` - Run your application with Node.js.
+- 📜 `start:bundle` - Run your application with Node.js using the bundled JavaScript file from dist.
 
 **Clean**
 
