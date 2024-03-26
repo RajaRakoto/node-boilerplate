@@ -32,7 +32,8 @@
 		"node": "21.5.0"
 	},
 	"scripts": {
-		"start": "node dist/bundle.js",
+		"start": "node dist/src/index.js",
+		"start:bundle": "node dist/bundle.js",
 		"clean": "rimraf build dist coverage",
 		"dev:tsc:watch": "tsc-watch --onSuccess \"node cache/esbuild.test.js\"",
 		"dev:nodemon:watch": "nodemon cache/bundle.test.js --no-stdin",
