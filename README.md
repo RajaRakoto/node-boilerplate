@@ -13,7 +13,7 @@ Instant Value - All basic tools included and configured:
 - 🧅 Use Bun as package manager
 - 🌈 ESM
 - 🧹 ESlint with some initial rules recommendation
-- ✅ Jest for fast unit testing and code coverage
+- ✅ Jest or Bun test for fast unit testing and code coverage
 - 📚 Type definitions for Node.js and Jest
 - 🎨 Prettier to enforce consistent code style
 - ⚙️ EditorConfig for consistent coding style
@@ -74,8 +74,8 @@ bun run pkg-upgrade # to upgrade outdated dependencies in interactive mode
 
 **Testing**
 
-- 📜 `test` - Run tests with Jest.
-- 📜 `test:watch` - Interactive watch mode to automatically re-run tests with Jest.
+- 📜 `test` - Run bun test.
+- 📜 `test:watch` - Interactive watch mode to automatically re-run tests with bun.
 
 **Linting and Formatting**
 
