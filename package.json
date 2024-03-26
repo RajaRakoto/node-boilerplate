@@ -1,82 +1,83 @@
 {
-  "name": "node-boilerplate",
-  "version": "1.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript 🚀",
-  "author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
-  "license": "MIT",
-  "type": "module",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RajaRakoto/node-boilerplate.git"
-  },
-  "homepage": "https://github.com/RajaRakoto/node-boilerplate#readme",
-  "bugs": "https://github.com/RajaRakoto/node-boilerplate/issues",
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "typescript",
-    "nodejs",
-    "node",
-    "minimalist",
-    "boilerplate",
-    "template",
-    "starter"
-  ],
-  "engines": {
-    "node": ">= 20"
-  },
-  "volta": {
-    "node": "21.5.0"
-  },
-  "scripts": {
-    "start": "node dist/bundle.min.cjs",
-    "clean": "rimraf build dist coverage",
-    "dev:tsc:watch": "./node_modules/.bin/tsc-watch --onSuccess \"node tests/esbuild.test.js\"",
-    "dev:nodemon:watch": "nodemon tests/bundle.min.test.cjs --no-stdin",
-    "build": "tsc -p tsconfig.json",
-    "build:watch": "tsc -w -p tsconfig.json",
-    "build:bundle": "node esbuild.js",
-    "test": "jest --coverage",
-    "test:watch": "jest --watch",
-    "eslint": "eslint --config .eslintrc --report-unused-disable-directives --max-warnings 0 .",
-    "prettier": "prettier --config .prettierrc --write .",
-    "backup": "grunt backup",
-    "pkg-check": "depcheck",
-    "pkg-upgrade": "ncu --interactive --format group --packageManager bun",
-    "versioning": "ungit",
-    "npm-version:major": "npm version major",
-    "npm-version:minor": "npm version minor",
-    "npm-version:patch": "npm version patch"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1",
-    "tslib": "~2.6"
-  },
-  "devDependencies": {
-    "@types/jest": "~29.5",
-    "@types/node": "~20.11.5",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "@typescript-eslint/parser": "^6.19.0",
-    "depcheck": "^1.4.7",
-    "esbuild": "^0.19.11",
-    "eslint": "~8.56",
-    "eslint-config-prettier": "~9.1",
-    "eslint-plugin-jest": "~27.6",
-    "grunt": "^1.6.1",
-    "grunt-contrib-compress": "^2.0.0",
-    "jest": "~29.7",
-    "load-grunt-tasks": "^5.1.0",
-    "nodemon": "^3.0.3",
-    "npm-check-updates": "^16.14.12",
-    "prettier": "~3.2",
-    "rimraf": "~5.0",
-    "ts-api-utils": "~1.0",
-    "ts-jest": "~29.1",
-    "tsc-watch": "^6.0.4",
-    "typescript": "~5.3",
-    "ungit": "^1.5.25"
-  }
+	"name": "node-boilerplate",
+	"version": "1.0.0",
+	"description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript 🚀",
+	"author": "Raja Rakotonirina <raja.rakoto7@gmail.com>",
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/src/index.js",
+	"types": "./dist/src/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RajaRakoto/node-boilerplate.git"
+	},
+	"homepage": "https://github.com/RajaRakoto/node-boilerplate#readme",
+	"bugs": "https://github.com/RajaRakoto/node-boilerplate/issues",
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"typescript",
+		"nodejs",
+		"node",
+		"minimalist",
+		"boilerplate",
+		"template",
+		"starter"
+	],
+	"engines": {
+		"node": ">= 20.10.0"
+	},
+	"volta": {
+		"node": "21.5.0"
+	},
+	"scripts": {
+		"start": "node dist/bundle.js",
+		"clean": "rimraf build dist coverage",
+		"dev:tsc:watch": "tsc-watch --onSuccess \"node cache/esbuild.test.js\"",
+		"dev:nodemon:watch": "nodemon cache/bundle.test.js --no-stdin",
+		"build": "tsc -p tsconfig.json",
+		"build:watch": "tsc -w -p tsconfig.json",
+		"build:bundle": "node esbuild.js",
+		"test": "jest --coverage",
+		"test:watch": "jest --watch",
+		"eslint": "eslint --config .eslintrc --report-unused-disable-directives --max-warnings 0",
+		"prettier": "prettier --config .prettierrc --write .",
+		"backup": "grunt backup",
+		"pkg-check": "depcheck",
+		"pkg-upgrade": "ncu --interactive --format group --packageManager bun",
+		"versioning": "ungit",
+		"npm-version:major": "npm version major",
+		"npm-version:minor": "npm version minor",
+		"npm-version:patch": "npm version patch",
+		"nvm": "nvm use"
+	},
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"tslib": "~2.6"
+	},
+	"devDependencies": {
+		"@types/jest": "~29.5",
+		"@types/node": "~20.11.5",
+		"@typescript-eslint/eslint-plugin": "^6.19.0",
+		"@typescript-eslint/parser": "^6.19.0",
+		"depcheck": "^1.4.7",
+		"esbuild": "^0.19.11",
+		"eslint": "~8.56",
+		"eslint-config-prettier": "~9.1",
+		"eslint-plugin-jest": "~27.6",
+		"grunt": "^1.6.1",
+		"grunt-contrib-compress": "^2.0.0",
+		"jest": "~29.7",
+		"load-grunt-tasks": "^5.1.0",
+		"nodemon": "^3.0.3",
+		"npm-check-updates": "^16.14.12",
+		"prettier": "~3.2",
+		"rimraf": "~5.0",
+		"ts-api-utils": "~1.0",
+		"ts-jest": "~29.1",
+		"tsc-watch": "^6.0.4",
+		"typescript": "~5.3",
+		"ungit": "^1.5.25"
+	}
 }
