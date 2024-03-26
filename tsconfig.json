@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es2022",
+    "target": "ESNext",
     "module": "node16",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "verbatimModuleSyntax": true,
     "moduleResolution": "node16",
+    "moduleDetection": "force",
     "rootDir": ".",
-    "outDir": "dist",
+    "outDir": "./dist",
     "useDefineForClassFields": true,
-    "allowImportingTsExtensions": false,
+    "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,
     "sourceMap": true,
-    "noEmit": false,
+    "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
@@ -23,11 +25,17 @@
     "esModuleInterop": true,
     "allowJs": true,
     "strict": true,
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": false,
+		"noUncheckedIndexedAccess": false,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
   },
-  "include": ["src/**/*", "tests/**/*"],
+	"include": ["*.ts", "**/*.ts"],
   "exclude": ["node_modules"]
 }
