@@ -36,7 +36,7 @@
 		"clean": "rimraf build dist coverage",
 		"dev:tsc:watch": "tsc-watch --onSuccess \"node cache/esbuild.test.js\"",
 		"dev:nodemon:watch": "nodemon cache/bundle.test.js --no-stdin",
-		"build": "tsc -p tsconfig.json",
+		"build": "bun run clean && tsc -p tsconfig.json",
 		"build:watch": "tsc -w -p tsconfig.json",
 		"build:bundle": "node esbuild.js",
 		"test": "jest --coverage",
