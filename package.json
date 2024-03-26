@@ -29,7 +29,7 @@
 		"node": ">= 20.10.0"
 	},
 	"volta": {
-		"node": "21.5.0"
+		"node": "20.10.0"
 	},
 	"scripts": {
 		"start": "node dist/src/index.js",
@@ -40,8 +40,8 @@
 		"build": "bun run clean && tsc -p tsconfig.json",
 		"build:watch": "tsc -w -p tsconfig.json",
 		"build:bundle": "node esbuild.js",
-		"test": "jest --coverage",
-		"test:watch": "jest --watch",
+		"test": "bun test",
+		"test:watch": "bun test --watch",
 		"eslint": "eslint --config .eslintrc --report-unused-disable-directives --max-warnings 0",
 		"prettier": "prettier --config .prettierrc --write .",
 		"backup": "grunt backup",
@@ -58,6 +58,7 @@
 		"tslib": "~2.6"
 	},
 	"devDependencies": {
+		"@types/bun": "latest",
 		"@types/jest": "~29.5",
 		"@types/node": "~20.11.5",
 		"@typescript-eslint/eslint-plugin": "^6.19.0",
