@@ -31,8 +31,8 @@
 		"isolatedModules": true,
 		"noImplicitOverride": true,
 		"noPropertyAccessFromIndexSignature": false,
-		"noUncheckedIndexedAccess": false,
+		"noUncheckedIndexedAccess": false
 	},
 	"include": ["*.ts", "**/*.ts"],
-	"exclude": ["./node_modules", "./tests"],
+	"exclude": ["./node_modules", "./tests"]
 }

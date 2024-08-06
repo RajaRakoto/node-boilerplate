@@ -13,9 +13,7 @@
 	},
 	"homepage": "https://github.com/RajaRakoto/node-boilerplate#readme",
 	"bugs": "https://github.com/RajaRakoto/node-boilerplate/issues",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"keywords": [
 		"typescript",
 		"nodejs",
