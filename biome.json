@@ -137,16 +137,16 @@
 			}
 		}
 	],
-  "files": {
-    "ignore": [
+	"files": {
+		"ignore": [
 			"build",
 			"dist",
 			"node_modules",
 			"bower_components",
 			"jspm_packages",
 			"cache",
-      "backups",
-      "tmp"
+			"backups",
+			"tmp"
 		]
-  }
+	}
 }
